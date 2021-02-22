@@ -243,13 +243,6 @@ img {
     justify-content: center;
 }
 
-.about-images {
-    display: flex;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .images {
     width: 370px;
 }
@@ -296,19 +289,19 @@ img {
     margin-right: 0;
 }
 
-.workers li:nth-child(1) {
+.workers > li:nth-child(1) {
     margin-right: 30px;
 }
 
-.workers li:nth-child(2) {
+.workers > li:nth-child(2) {
     margin-right: 30px;
 }
 
-.workers li:nth-child(3) {
+.workers > li:nth-child(3) {
     margin-right: 30px;
 }
 
-.workers li {
+.workers > li {
     width: 270px;
 }
 
@@ -546,4 +539,49 @@ footer {
     height: 120px;
 }
 
+.social-netw-container {
+    display: flex;
+    justify-content:center;
+    /* margin-top: 16px; */
+    /* margin-left: 32px; */
+    /* padding-right: 32px; */
+    /* padding-bottom: 30px; */
+}
 
+.social-netw-container li {
+    display: inline-flex;
+    align-content: center;
+    padding:12px;
+    margin-top: 16px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: crimson; */
+    /* fill:var(--grey-text); */
+}
+
+.social-netw-icon {
+    fill:var(--grey-text);
+    
+}
+
+.social-netw-container > li:nth-child(2n + 1) {
+    margin-right: 10px;
+}
+
+.social-netw-container > li:nth-child(2n + 2) {
+    margin-right: 10px;
+}
+
+.social-netw-container > li:nth-child(3) {
+    margin-right: 10px;
+}
+
+.social-netw-container li:hover, :focus {
+    fill: var(--white);
+    background-color: var(--blue);
+}
+
+.social-netw-icon:hover, :focus {
+    fill: var(--white); 
+}
