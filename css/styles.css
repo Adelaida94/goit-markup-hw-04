@@ -30,6 +30,7 @@ header {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    border-bottom: 1px solid var(--light-grey-stroke);
 }
 
 .header-nav,
@@ -62,7 +63,6 @@ img {
     /* justify-content: space-between; */
     align-items:center;
     /* margin-top: 32px; */
-    border-bottom: 1px solid var(--light-grey-stroke);
     height: 80px;
 }
 
